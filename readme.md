@@ -17,12 +17,12 @@
   </p>
   <p>
 
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?logo=github) [![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fmintlify.com%2F)](https://twitter.com/intent/tweet?url=&text=Check%20out%20%40mintlify)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?logo=github) [![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fmintlify.com%2F)](https://twitter.com/intent/tweet?url=&text=Check%20out%20%40shadyfi)
 
   </p>
 </div>
 
-# Mintlify's markdown parser
+# Shadyfi's markdown parser
 
 **@mshadify/mdx** is a thin layer on top of [next-mdx-remote-client) that provides a better developer experience for Next.js users by adding support for syntax highlighting.
 
