@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://mintlify.com">
+  <a href="https://shadyfi.com">
     
   </a>
   <br />
@@ -24,26 +24,26 @@
 
 # Mintlify's markdown parser
 
-**@mintlify/mdx** is a thin layer on top of [next-mdx-remote-client](https://github.com/ipikuka/next-mdx-remote-client) that provides a better developer experience for Next.js users by adding support for syntax highlighting.
+**@mshadify/mdx** is a thin layer on top of [next-mdx-remote-client) that provides a better developer experience for Next.js users by adding support for syntax highlighting.
 
 ## Installation
 
 ```bash
 # using npm
-npm i @mintlify/mdx
+npm i @shadify/mdx
 
 # using yarn
-yarn add @mintlify/mdx
+yarn add @shadify/mdx
 
 # using pnpm
-pnpm add @mintlify/mdx
+pnpm add @shadify/mdx
 ```
 
 ## Examples
 
 ### Next.js pages router
 
-[You can check the example app here](https://github.com/mintlify/mdx/tree/main/examples/pages-router).
+[You can check the example app here](https://github.com/shadyfi/mdx/tree/main/examples/pages-router).
 
 1. Call the `serialize` function inside `getStaticProps` and return the `mdxSource` object.
 
@@ -71,10 +71,10 @@ pnpm add @mintlify/mdx
    }
    ```
 
-3. Import `@mintlify/mdx/dist/styles.css` inside your `_app.tsx` file. This file contains the styles for the code syntax highlighting.
+3. Import `@shadify/mdx/dist/styles.css` inside your `_app.tsx` file. This file contains the styles for the code syntax highlighting.
 
    ```tsx
-   import '@mintlify/mdx/dist/styles.css';
+   import '@mshadify/mdx/dist/styles.css';
    import { AppProps } from 'next/app';
 
    export default function App({ Component, pageProps }: AppProps) {
@@ -84,12 +84,12 @@ pnpm add @mintlify/mdx
 
 ### Next.js app router
 
-[You can check the example app here](https://github.com/mintlify/mdx/tree/main/examples/app-router).
+[You can check the example app here](https://github.com/shadify/mdx/tree/main/examples/app-router).
 
 1. Use the `MDXRemote` component directly inside your async React Server Component.
 
    ```tsx
-   import { MDXRemote } from '@mintlify/mdx';
+   import { MDXRemote } from '@shadify/mdx';
 
    export default async function Home() {
      const source: `---
@@ -107,10 +107,10 @@ pnpm add @mintlify/mdx
    }
    ```
 
-2. Import `@mintlify/mdx/dist/styles.css` inside your `layout.tsx` file. This file contains the styles for the code syntax highlighting.
+2. Import `@shadify/mdx/dist/styles.css` inside your `layout.tsx` file. This file contains the styles for the code syntax highlighting.
 
    ```tsx
-   import '@mintlify/mdx/dist/styles.css';
+   import '@shadify/mdx/dist/styles.css';
    import type { Metadata } from 'next';
 
    export const metadata: Metadata = {
@@ -138,7 +138,7 @@ Similar to [next-mdx-remote-client](https://github.com/ipikuka/next-mdx-remote-c
 ### serialize
 
 ```tsx
-import { serialize } from '@mintlify/mdx';
+import { serialize } from '@shadify/mdx';
 
 const mdxSource = await serialize({
   source: '## Markdown H2',
@@ -158,7 +158,7 @@ const mdxSource = await serialize({
 ```tsx
 'use client';
 
-import { MDXClient } from '@mintlify/mdx';
+import { MDXClient } from '@shadify/mdx';
 
 <MDXClient
   components={{
@@ -171,7 +171,7 @@ import { MDXClient } from '@mintlify/mdx';
 ### MDXRemote
 
 ```tsx
-import { MDXRemote } from '@mintlify/mdx';
+import { MDXRemote } from '@shadify/mdx';
 
 <MDXRemote
   source="## Markdown H2"
@@ -193,7 +193,7 @@ import { MDXRemote } from '@mintlify/mdx';
   <p>
     <sub>
       Built with ❤︎ by
-      <a href="https://mintlify.com">
+      <a href="https://shadyfi.com">
         Mintlify
       </a>
     </sub>
