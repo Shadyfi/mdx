@@ -1,10 +1,6 @@
 <div align="center">
   <a href="https://mintlify.com">
-    <img
-      src="https://res.cloudinary.com/mintlify/image/upload/v1665385627/logo-rounded_zuk7q1.svg"
-      alt="Mintlify Logo"
-      height="64"
-    />
+    
   </a>
   <br />
   <p>
